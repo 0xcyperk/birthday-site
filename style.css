@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(#2b2838, #4b2f5e);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.header{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Happy Monkey", sans-serif;
+}
+
+#naruto{
+    width: 220px;
+    border: 6px solid gray;
+    border-radius: 50%;
+}
+
+#bday-age{
+    background-color: grey;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+} 
+
+#bday-date{
+    background-color: grey;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-top: 12px;
+} 
+
+.gift1, .gift2, .gift3, .gift4, .gift5{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Happy Monkey", sans-serif;
+    margin-bottom: 50px;
+}
+
+.gift1 h3{
+    margin-top: 0%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.gift5{
+    height: 300px;
+}
+
+.cont-img{
+    border: 5px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    background-image: url(./images/giftcover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#img1:hover{
+    background-image: url(./images/gif1.gif);
+}
+#img2:hover{
+    background-image: url(./images/Shocked.gif);
+}
+#img3:hover{
+    background-image: url(./images/genius.gif);
+}
+#img4:hover{
+    background-image: url(./images/goku.gif);
+}
+#img5:hover{
+    background-image: url(./images/zoro.gif);
+}
+
+#footer, a{
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "happy monkey";
+    color: #fff;
+}
+
+
